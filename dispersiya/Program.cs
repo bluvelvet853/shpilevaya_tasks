@@ -10,6 +10,7 @@ namespace dispersiya
     {
         static void Main(string[] args)
         {
+            //
         }
     }
 }
