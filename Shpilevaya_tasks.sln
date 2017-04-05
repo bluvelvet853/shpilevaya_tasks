@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dispersiya", "dispersiya\dispersiya.csproj", "{684169C2-E19C-4D71-9274-7631500E11F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shpilevaya_tasks", "Shpilevaya_tasks\Shpilevaya_tasks.csproj", "{C55C0AF4-E862-40DC-A021-8CD8E7A7DC10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shpilevaya__tasks", "Shpilevaya__tasks\Shpilevaya__tasks.csproj", "{BE15DA21-0B76-4007-B301-FB4F8E7FD98A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{684169C2-E19C-4D71-9274-7631500E11F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{684169C2-E19C-4D71-9274-7631500E11F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{684169C2-E19C-4D71-9274-7631500E11F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55C0AF4-E862-40DC-A021-8CD8E7A7DC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55C0AF4-E862-40DC-A021-8CD8E7A7DC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55C0AF4-E862-40DC-A021-8CD8E7A7DC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55C0AF4-E862-40DC-A021-8CD8E7A7DC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE15DA21-0B76-4007-B301-FB4F8E7FD98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE15DA21-0B76-4007-B301-FB4F8E7FD98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE15DA21-0B76-4007-B301-FB4F8E7FD98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE15DA21-0B76-4007-B301-FB4F8E7FD98A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
