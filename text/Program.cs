@@ -123,7 +123,6 @@ namespace Shpilevaya_tasks
             {
                 Console.WriteLine(list[y].symb + " - " + list[y].coun);
             }
-            Console.ReadKey();
         }
     }
 }
