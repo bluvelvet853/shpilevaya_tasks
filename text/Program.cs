@@ -90,40 +90,40 @@ namespace Shpilevaya_tasks
 
             }
 
-                string s = text;
+            string s = lowerText;
 
-                int l = s.Length;
-                for (int i = 0; i < l; i++) // распределение символов в текстовой строке
+            int l = s.Length;
+            for (int i = 0; i < l; i++) // распределение символов в текстовой строке
+            {
+                char temp = s[i];
+                bool e = true;
+                for (int t = 0; t < list.Count; t++)
                 {
-                    char temp = s[i];
-                    bool e = true;
-                    for (int t = 0; t < list.Count; t++)
+                    if (temp.ToString() == list[t].symb)
                     {
-                        if (temp.ToString() == list[t].symb)
-                        {
-                            e = false;
-                        }
-                    }
-                    if (e == true)
-                    {
-                        int count = 0;
-                        for (int j = 0; j < l; j++)
-                        {
-
-                            if (temp == s[j])
-                            {
-                                count++;
-                            }
-                        }
-                        list.Add(new MyType(temp.ToString(), count));
+                        e = false;
                     }
                 }
-
-                for (int y = 0; y < list.Count; y++)
+                if (e == true)
                 {
-                    Console.WriteLine(list[y].symb + " - " + list[y].coun);
+                    int count = 0;
+                    for (int j = 0; j < l; j++)
+                    {
+
+                        if (temp == s[j])
+                        {
+                            count++;
+                        }
+                    }
+                    list.Add(new MyType(temp.ToString(), count));
                 }
-                Console.ReadKey();
+            }
+
+            for (int y = 0; y < list.Count; y++)
+            {
+                Console.WriteLine(list[y].symb + " - " + list[y].coun);
+            }
+            Console.ReadKey();
         }
     }
 }
