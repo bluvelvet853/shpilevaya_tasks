@@ -9,11 +9,11 @@ namespace Shpilevaya_tasks
     class Program
     {
         //Метод, который определяет уникальность символа
-        static bool UnikalSymb(string text, char symb)
+        static bool UnikalSymb(string lowerText, char symb)
         {
-            for (int i = 0; i < text.Length; i++)
+            for (int i = 0; i < lowerText.Length; i++)
             {
-                if (symb == text[i])
+                if (symb == lowerText[i])
                     return false;
             }
             return true;
@@ -40,16 +40,19 @@ namespace Shpilevaya_tasks
             Console.WriteLine(text);
 
             //Переведем текст в нижний регистр
-            string lowerText = text.ToLower();
+            string text1 = text.ToLower();
+            char[] MyChar = { ' ', ',', '.', '—', '«', '»', '-' };
+            string lowerText = text1.TrimStart(MyChar);
             Console.WriteLine(lowerText);
+            Console.ReadKey();
 
 
             //Cчитаем количество слов в исходном тексте
-            string[] textWords = text.Split(new char[] { ' ', ',', '.', '—', '«', '»', '-' });
+            string[] textWords = lowerText.Split(new char[] { ' ', ',', '.', '—', '«', '»', '-' });
             Console.WriteLine("Количество слов: " + textWords.Length);
 
             //Считаем количество символов в исходном тексте
-            char[] textSimbols = text.ToCharArray();
+            char[] textSimbols = lowerText.ToCharArray();
             Console.WriteLine("Количество символов: " + textSimbols.Length);
 
              //Поиск уникальных букв в тексте
