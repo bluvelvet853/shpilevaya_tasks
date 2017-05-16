@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dispersiya", "dispersiya\dispersiya.csproj", "{684169C2-E19C-4D71-9274-7631500E11F0}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "polindrom", "polindrom\polindrom.csproj", "{339DEE79-EFC9-41EC-9D14-6DD51B90D794}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kodirovka", "kodirovka\kodirovka.csproj", "{B3C9C0F3-7767-4907-804A-41DA9F313A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.csproj", "{841964BD-B1D7-4C25-9E79-DC1AD62FEE9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{B3C9C0F3-7767-4907-804A-41DA9F313A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3C9C0F3-7767-4907-804A-41DA9F313A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3C9C0F3-7767-4907-804A-41DA9F313A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841964BD-B1D7-4C25-9E79-DC1AD62FEE9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841964BD-B1D7-4C25-9E79-DC1AD62FEE9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841964BD-B1D7-4C25-9E79-DC1AD62FEE9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841964BD-B1D7-4C25-9E79-DC1AD62FEE9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
